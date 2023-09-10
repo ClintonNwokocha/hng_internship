@@ -1,14 +1,10 @@
 from django.shortcuts import render
 from django.http import JsonResponse
-from django.http import HttpResponse
 from datetime import datetime
 import pytz
 
 # Create your views here.
 
-
-def home(request):
-    return HttpResponse("Hello, welcome to my HNG internship project!")
 
 
 def my_endpoint(request):

@@ -18,8 +18,8 @@ def my_endpoint(request):
         "current_day": current_day,
         "utc_time": formatted_utc_now,
         "track": track,
-        "github_file_url": "https://github.com/username/repo/blob/main/file_name.ext",
-        "github_repo_url": "https://github.com/username/repo",
+        "github_file_url": "https://github.com/ClintonNwokocha/hng_internship/blob/main/hngapp/views.py",
+        "github_repo_url": "https://github.com/ClintonNwokocha/hng_internship",
         "status_code": 200,
     }
     return JsonResponse(data)

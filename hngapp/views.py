@@ -13,7 +13,7 @@ def my_endpoint(request):
 
     utc_now = datetime.now(pytz.utc)
     current_day = utc_now.strftime('%A')
-    formatted_utc_now = utc_now.isoformat()
+    formatted_utc_now = utc_now.strftime('%Y-%m-%dT%H:%M:%SZ')  # updated format here
 
     data = {
         "slack_name": slack_name,
